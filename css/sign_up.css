@@ -1,0 +1,45 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    padding-left:7%;
+    background-image: url("");
+    background-size: cover;
+    height: 100vh;
+    width: 90%;
+}
+
+td{
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-weight: bold;
+}
+section{
+    padding-top: 7%;
+}
+button{
+    align-self: right;
+}
+
+@media(max-width:400px){
+    body{
+        padding-left: 2%;
+        width: 98%;
+    }
+    section{
+        padding-top: 18%;
+        
+    }
+    td, input{
+        font-size: 12px !important;
+    }
+}
+@media(min-device-width: 400px) and (max-device-width: 900px){
+    td, input{
+        font-size: 17px !important;
+    }
+    section{
+        padding-top: 20%;
+        
+    }
+}

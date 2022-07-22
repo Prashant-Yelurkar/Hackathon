@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=button] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border-radius:15px ;
+  cursor: pointer;
+}
+
+input[type=boutton]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-top: 7%;
+}
+.column {
+  float: right;
+  width: 50% !important;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+@media (max-width: 600px){
+    .column, input[type=submit] {
+        width: 100% !important;
+        margin-top: 0;
+    }
+    .container{
+      padding-top: 20% !important;
+    }
+    #main-img{      
+        content:url("../image/contactus.gif");
+        width: 100% !important;
+        height: 100px;
+        
+      } 
+} 
+@media screen and (min-width: 600px) {      
+    #main-img{      
+       content:url("../image/contact.gif");
+       padding-left: 10%;
+       width: 90%;
+       height: 600px;
+    } 
+}

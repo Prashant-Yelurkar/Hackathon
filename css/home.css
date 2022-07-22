@@ -1,0 +1,35 @@
+body{
+    background-position: center;
+    background-image: url(image/home.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+section{
+    padding-top: 010%;
+    width: 90%;
+    padding-left:10%;
+}
+.card-group
+{
+    background-color: white!important;
+}
+.card{
+    padding-top: 3%;
+    border: 0px !important;
+    background-color: transparent !important;
+}
+.button{
+    text-align:right;
+}
+@media(max-width:600px){
+    section{
+        padding-top: 15%;
+    }
+}
+
+@media(max-width: 990px) {
+}

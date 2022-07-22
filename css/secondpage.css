@@ -1,0 +1,29 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.section{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 90%;
+}
+
+
+@media(max-width:500px){
+    .section{
+        padding-top: 40%;
+        padding-left: 1%;
+        padding-right:1%;
+        width: 100%;
+    }
+    .object{
+        width: 90%;
+    }
+}
+@media((min-width:500) and (max-width:1300px)){
+    .section{
+        padding-top: 20%;
+        padding-left: 1%;
+        padding-right:1%;
+        width: 100%;
+    }
+}

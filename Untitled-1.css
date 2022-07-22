@@ -1,0 +1,35 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.section{
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.button{
+    text-align: center;
+}
+.name img{
+    border-radius: 100%;
+    width: 100px;
+  }
+@media(max-width:500px){
+    .name img{
+        border-radius: 100%;
+        width: 50px;
+      }
+    .name h4{
+        font-size: 15px;
+    }
+    .section{
+        padding-top: 25%;
+        padding-left: 3%;
+        padding-right:0%;
+    }
+    .button{
+        text-align: center;
+        padding-left: 8%;
+    }
+    
+}

@@ -1,0 +1,93 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar {
+
+    background: rgba(8, 24, 88, 1);
+}
+.navbar:hover{
+    background: rgb(2, 11, 44);
+}
+
+.navbar a{
+    color: white !important;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar h1{
+    padding-top: 10px;
+    padding-left: 40px ;
+    color: white!important;
+    font-size: 30px;
+    cursor: pointer;
+}
+.navbar h1::after{
+    content: '' ;
+    width: 0% ;
+    height: 2px ;
+    background:#f44336 !important;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar h1:hover::after{
+    width: 100% ;  
+}
+.collapse ul{
+    padding-left: 47%;
+}
+.collapse ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+   
+}
+.navbar button{
+    background-color: rgb(255, 255, 255)!important;
+    border: 1px;
+    color:transparent !important;
+}
+.collapse ul li:hover::after{
+    width: 100%;
+}
+.nav-item{
+    padding-left: 14% !important;
+}
+.butten{
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .collapse ul{
+        padding-left: 0px;
+    }
+    .navbar h1{
+        font-size: 25px !important ;
+        padding-left: 0%;
+    } 
+    .collapse ul li:hover::after{
+        width: 100%;
+    }
+}
+@media(max-width: 990px) {
+
+    .navbar h1{
+        padding-top: 15px;
+        font-size: 30px;
+    } 
+    .collapse ul{
+        padding-left: 0px;
+    }
+    
+}
+@media(max-width: 1300px ){
+    .nav-item{
+        padding-left: 5% !important;
+    }
+    
+    
+}
