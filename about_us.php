@@ -10,7 +10,7 @@
     picture{
     display: block;
     width: 80%;
-    max-width: 601px;
+    max-width: 600px;
     margin: 40px auto;
     }
     picture > * {
