@@ -5,6 +5,7 @@ eeee<html>
   </head>
   <body>
     <?php
+    //hello
       include('navbar.html');
     ?>
     <section>
