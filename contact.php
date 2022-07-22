@@ -31,6 +31,7 @@ if(isset($_POST["submit"]))
         <title>
         SEVEN WONDERS OF THE WORLD
         </title>
+        <!--style-->
         <link rel="stylesheet " href="css/contact.css">
     </head>
     <body>
